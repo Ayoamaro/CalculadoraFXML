@@ -16,7 +16,7 @@ La **lógica de negocio** de la calculadora se implementa en la clase **Calculad
 - El botón "C" se corresponde con "borrar()".
 - Cuando se pulsa un dígito habrá que llamar al método "insertar(char digito)".
 - Cuando se pulsa el botón para introducir decimales se llamará al método "insertarComa()".
-- Para las operaciones (+, -, *, /) se dispone del método "operar(char)", al que se le pasará una constante: IGUAL, SUMAR, RESTAR, DIVIDIR, ....
+- Para las operaciones (+, -, *, /) se dispone del método "operar(char)", al que se le pasará una constante: IGUAL, SUMAR, RESTAR, DIVIDIR.
 - Para saber lo que hay en la pantalla de la calculadora debes usar el método "String getPantalla()".
 
 Ejemplo de uso de la clase "Calculadora":
