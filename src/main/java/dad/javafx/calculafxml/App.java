@@ -19,8 +19,9 @@ public class App extends Application {
 		
 		Scene scene = new Scene(controller.getView());
 		
-		primaryStage.setTitle("");
 		primaryStage.setScene(scene);
+		primaryStage.setTitle("Calculadora");
+		// primaryStage.getIcons().add(new Image("images"));
 		primaryStage.show();
 	}
 
