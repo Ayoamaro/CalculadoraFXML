@@ -2,6 +2,7 @@ package dad.javafx.calculafxml;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 /**
@@ -21,7 +22,7 @@ public class App extends Application {
 		
 		primaryStage.setScene(scene);
 		primaryStage.setTitle("Calculadora");
-		// primaryStage.getIcons().add(new Image("images"));
+		primaryStage.getIcons().add(new Image("images/calculadora-icon-32x32.png"));
 		primaryStage.show();
 	}
 
