@@ -67,7 +67,7 @@ public class Controller implements Initializable {
 	@FXML 
 	void onEqualAction(ActionEvent e){ calcula.operar(Calculadora.IGUAL); field.setText(calcula.getPantalla()); }
 	
-	// Caragmos la Vista creada con el Scene Builder
+	// Cargamos la Vista creada con el Scene Builder
 	public Controller() throws IOException{
 		FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/View.fxml"));
 		loader.setController(this);
